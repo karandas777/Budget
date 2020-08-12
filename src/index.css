@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+html{
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  margin: 0;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Comfortaa', cursive;
+  background-color: #232931;
+  color: #eeeeee;
+  user-select: none;
+}
+
+.bg-white{
+  background-color: #eeeeee;
+}
+
+.text-white{
+  color: #eeeeee;
+}
+
+.bg-green{
+  background-color: #4ecca3;
+}
+
+.text-green{
+  color: #4ecca3;
+}
+
+.border-green{
+  border: 5px solid #4ecca3;
+}
+
+.bg-red{
+  background-color: #ff2e63;
+}
+
+.text-red{
+  color: #ff2e63;
+}
+
+.bg-purple{
+  background-color: #930077;
+}
+
+.text-purple{
+  color: #930077;
+}
+
+.bg-gray{
+  background-color: #393e46;
+}
+
+.text-gray{
+  color: #393e46;
+}
+
+.bg-black{
+  background-color: #232931;
+}
+
+.text-black{
+  color: #232931;
 }
